@@ -1,0 +1,19 @@
+{
+  "name": "@ecrowjs/storybook",
+  "version": "1.0.0",
+  "description": "Storybook configuration for component libraries.",
+  "main": "index.js",
+  "repository": "git@github.com:ecrowjs/storybook.git",
+  "author": "Eric Crowell <eric.crowell@ecrow.net>",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "ecrowjs-storybook": "cli.js"
+  },
+  "dependencies": {
+    "@storybook/react": "^5.3.19",
+    "awesome-typescript-loader": "^5.2.1",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "yargs": "^15.3.1"
+  }
+}
