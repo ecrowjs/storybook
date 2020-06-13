@@ -1,7 +1,7 @@
 {
   "name": "@ecrowjs/storybook",
   "version": "1.0.0",
-  "description": "Storybook configuration for component libraries.",
+  "description": "Storybook configurations for eCrowJS component libraries.",
   "main": "index.js",
   "repository": "git@github.com:ecrowjs/storybook.git",
   "author": "Eric Crowell <eric.crowell@ecrow.net>",
