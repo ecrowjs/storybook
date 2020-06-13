@@ -28,5 +28,5 @@ export default create({
   // inputTextColor: "black",
 
   // brandImage: '/logo-color.png',
-  brandTitle: 'My custom storybook',
+  brandTitle: 'eCrow Storybook',
 });

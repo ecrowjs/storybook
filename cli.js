@@ -1,9 +1,10 @@
+#!/usr/bin/env node
+
 const storybook = require('@storybook/react/standalone');
-const scriptPath = require('path').basename(__dirname);
 
 storybook({
   mode: 'dev',
   port: 2769,
-  staticDir: [`${scriptPath}/static`],
-  configDir: `${scriptPath}/config`,
+  staticDir: [`${__dirname}/static`],
+  configDir: `${__dirname}/config`,
 });
